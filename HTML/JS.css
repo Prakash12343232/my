@@ -1,0 +1,120 @@
+body{
+    border-image: auto;
+    background-color: black;
+}
+.logo{
+    height: 150px;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+    border-radius: 20px 20px 0 0  ;
+}
+.menu{
+    background-image: url(images\ \(2\).jpeg);   
+    height:80px;
+    background-color: antiquewhite;
+    border-radius: 0px 0px 20px 20px;
+}
+.set{
+    margin-top: 4px;
+    height: 400px;
+    background-color: rgba(54, 121, 221, 0.459);
+    border-radius: 30px 0 0 0;
+    overflow: scroll;
+}
+#hee{
+   height: 370px;
+   width: 450px; 
+   border-radius: 30px;
+   margin-left: 650px;
+   margin-top: -370px;
+   border:5px solid whitesmoke;
+   box-shadow: 0 0 100px  whitesmoke;
+}
+::-webkit-scrollbar{
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: blue;
+    border-radius: 20px 0px 0px  20px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #b30000;
+    border-radius: 20px 20px 20px  20px;
+  }
+#pp{
+    width: 400px;
+    height: 380px;
+    background-color: rgba(128, 223, 215, 0.137);
+    margin-left: 30px;
+    border-radius: 30px;
+    padding-top: 1%;
+    padding-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 100px 4px whitesmoke;
+}  
+#HOME,#HTML,#CSS,#JS{
+    background-color: rgb(9, 255, 9);
+    height: 65px;
+    width: 180px;
+    margin-left: 9%;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    transition: all 1s;
+}
+#CSS:hover{
+    border: 3px solid rgb(9, 255, 9);
+    background-color:whitesmoke;
+}
+#HTML:hover{
+  border: 3px solid rgb(9, 255, 9);
+  background-color:whitesmoke; 
+}
+#HOME:hover{
+  border: 3px solid rgb(9, 255, 9);
+  background-color:whitesmoke;
+}
+#JS{
+  box-shadow: 0 0 0px 4px red;
+}
+#lo{
+    color: rgba(1, 255, 1, 0.952);
+    font-size: 7em;
+    margin-left: 470px;
+    font-style: italic;
+  }
+  #loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid blue;
+    border-radius: 50%;
+    border-top: 16px solid green;
+    border-bottom:16px solid green;
+    box-shadow: 0px 0px 300px green  ;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  @-webkit-keyframes spin{
+    0%{
+      -webkit-transform: rotate(0deg);
+    }
+    100%{
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
